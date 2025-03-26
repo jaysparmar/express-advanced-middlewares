@@ -1,11 +1,11 @@
-# express-advanced-middlewares-js
+# express-advanced-middlewares
 
 A collection of advanced middlewares for Express.js applications including logging, request validation, rate limiting, CORS, compression, security headers, and error handling.
 
 ## Installation
 
 ```bash
-npm install express-advanced-middlewares-js
+npm install express-advanced-middlewares
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install express-advanced-middlewares-js
 
 ```javascript
 const express = require('express');
-const { logger } = require('express-advanced-middlewares-js');
+const { logger } = require('express-advanced-middlewares');
 
 const app = express();
 
@@ -33,7 +33,7 @@ app.listen(3000, () => {
 
 ```javascript
 const express = require('express');
-const { validator } = require('express-advanced-middlewares-js');
+const { validator } = require('express-advanced-middlewares');
 const Joi = require('joi');
 
 const app = express();
@@ -57,7 +57,7 @@ app.listen(3000, () => {
 
 ```javascript
 const express = require('express');
-const { rateLimiter } = require('express-advanced-middlewares-js');
+const { rateLimiter } = require('express-advanced-middlewares');
 
 const app = express();
 
@@ -76,7 +76,7 @@ app.listen(3000, () => {
 
 ```javascript
 const express = require('express');
-const { cors } = require('express-advanced-middlewares-js');
+const { cors } = require('express-advanced-middlewares');
 
 const app = express();
 
@@ -95,7 +95,7 @@ app.listen(3000, () => {
 
 ```javascript
 const express = require('express');
-const { compression } = require('express-advanced-middlewares-js');
+const { compression } = require('express-advanced-middlewares');
 
 const app = express();
 
@@ -114,7 +114,7 @@ app.listen(3000, () => {
 
 ```javascript
 const express = require('express');
-const { helmet } = require('express-advanced-middlewares-js');
+const { helmet } = require('express-advanced-middlewares');
 
 const app = express();
 
@@ -133,7 +133,7 @@ app.listen(3000, () => {
 
 ```javascript
 const express = require('express');
-const { errorHandler } = require('express-advanced-middlewares-js');
+const { errorHandler } = require('express-advanced-middlewares');
 
 const app = express();
 
